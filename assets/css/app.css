@@ -168,8 +168,6 @@ footer{
 /*Game Page*/
 
 .game-container {
-    
-    
     max-width: 80rem;
     margin: 0 auto;
     padding: 5rem;
@@ -191,4 +189,49 @@ footer{
 .hud-main-text {
   text-align: center;
 }
+
+/*Progress Bar*/
+#progressBar {
+  width: 20rem;
+  height: 4rem;
+  border: 0.3rem solid #cc6666;
+  margin-top: 1.5rem;
+}
+
+#progressBarFull {
+height: 3.4rem;
+background-color: #cc6666;  
+width: 0%;
+}
+
+/* Questions and answers*/
+.choice-container {
+  display: flex;
+  margin-bottom: 0.5rem;
+  width: 100%;
+  font-size: 1.8rem;
+  border: 0.1rem solid #6b6bb2;
+  background-color: #6b6bb2;
+  border-radius: 6px;
+}
+
+.choice-container:hover {
+  cursor:pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(220, 241, 58, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  padding: 1.5rem 2.5rem;
+  background-color: #cc99cc;
+  color: white;
+}
+
+.choice-text {
+  padding: 1.5rem;
+  width: 100%;
+  color: black;
+}
+
 
