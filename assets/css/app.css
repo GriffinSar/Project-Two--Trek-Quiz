@@ -217,9 +217,7 @@ width: 0%;
 
 .choice-container:hover {
   cursor:pointer;
-  box-shadow: 0 0.4rem 1.4rem 0 rgba(220, 241, 58, 0.5);
   transform: translateY(-0.1rem);
-  transition: transform 150ms;
 }
 
 .choice-prefix {
