@@ -168,12 +168,27 @@ footer{
 /*Game Page*/
 
 .game-container {
-  width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
+    
     max-width: 80rem;
     margin: 0 auto;
     padding: 5rem;
+}
+
+/* HUD */
+
+.hud {
+  display: flex;
+  justify-content: space-between;
+    
+}
+
+.hud-prefix {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.hud-main-text {
+  text-align: center;
 }
 
