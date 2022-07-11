@@ -165,6 +165,7 @@ footer{
   }
 
 
+
 /*Game Page*/
 
 .game-container {
@@ -234,8 +235,10 @@ width: 0%;
 
 #question {
   font-size: 3.2rem;
-    margin-bottom: 4rem;
-    font-weight: 700;
+  margin-bottom: 4rem;
+  font-weight: 700;
 }
+
+
 
 
