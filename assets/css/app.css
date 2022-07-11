@@ -260,4 +260,20 @@ padding-top: 2px;
  height:auto ;
 }
 
+/*Timer*/
+#timer {
+  background-color: #f6cf23;
+  width: 150px;
+  height: 45px;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 10px;
+  
+}
+
 
