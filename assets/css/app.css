@@ -232,4 +232,10 @@ width: 0%;
   color: black;
 }
 
+#question {
+  font-size: 3.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
 
