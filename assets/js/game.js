@@ -135,6 +135,7 @@ const CORRECT_SCORE = 10;
 const MAX_QUESTIONS = 14;
 const INNCORECT_TIMER = -10;
 
+//Start Game Function
 startGame = () => {
     questionCounter = 0;
     score = 0;
@@ -142,7 +143,7 @@ startGame = () => {
     getNewQuestion();
   };
 
-
+//Function to get New questions and answers and display in quiz
   getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem("mostRecentScore", score);
@@ -167,6 +168,7 @@ startGame = () => {
       availableQuestions.splice(questionList, 1);
   }
 
+//Event listener for click, sets color depending on right or wrong and also decreses counter for wrong answer
   choices.forEach(choice => {
     choice.addEventListener('click', e => {
     const selectedChoice = e.target;
@@ -219,10 +221,11 @@ incrementScore = num => {
     timer.innerHTML = timerString
   }, 1000)
   
+//Direct to end page
   function endGame() {
     return window.location.assign("/end.html")
   }
 
-
-  startGame();
+//Call start game function
+startGame();
   
