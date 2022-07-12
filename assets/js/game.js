@@ -149,8 +149,15 @@ startGame = () => {
         choice.innerText = currentQuestion["choice" + number];
       });
 
-      availableQuesions.splice(questionIndex, 1);
+      availableQuestions.splice(questionList, 1);
   }
+
+  choices.forEach(choice => {
+    choice.addEventListener('click', e => {
+        console.log(e.target);
+    })
+  })
+
 
   startGame();
   
