@@ -2,6 +2,7 @@ const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 //Variables for Hud
 const progressText = document.getElementById("progressText");
+const progressBarFull = document.getElementById("progressBarFull");
 const scoreText = document.getElementById("score");
 
 let currentQuestion = {};
