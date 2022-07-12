@@ -1,5 +1,5 @@
-console.log("hello world");
-
+const question = document.getElementById('question');
+const choices = document.getElementsByClassName('choice-text');
 
 
 //array of objects for each question and answer
