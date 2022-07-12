@@ -9,6 +9,7 @@ let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
+var countDownTimer = 120;
 
 
 //array of objects for each question and answer
@@ -193,6 +194,31 @@ incrementScore = num => {
     score += num;
     scoreText.innerText = score;
   };
+
+  setInterval(function () {
+
+    if (countDownTimer < 0) {
+        endGame();
+    } else {
+        countDownTimer--
+    }
+  
+    const timer = document.getElementById("timer")
+    var timerString = "";
+    if (countDownTimer > 60) {
+        timerString += Math.floor(countDownTimer / 60) + "m ";
+    }
+  
+    // make it so when the timer gets below 30 seconds the color changes from green to red
+    if (countDownTimer < 30) {
+        timer.setAttribute("class", "timerRed")
+    }
+  
+    var seconds = countDownTimer % 60
+    timerString += seconds + "s"
+    timer.innerHTML = timerString
+  }, 1000)
+  
 
 
   startGame();
