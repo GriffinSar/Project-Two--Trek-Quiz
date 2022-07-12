@@ -1,6 +1,6 @@
 const question = document.getElementById('question');
-const choices = document.getElementsByClassName('choice-text');
-
+const choices = Array.from(document.getElementsByClassName('choice-text'));
+console.log(choices);
 
 //array of objects for each question and answer
 let questions = [
