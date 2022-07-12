@@ -291,4 +291,13 @@ padding-top: 2px;
   
 }
 
+/* Classes for when user chooses right or wrong answer*/
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
 
