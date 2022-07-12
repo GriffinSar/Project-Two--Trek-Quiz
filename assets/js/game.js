@@ -133,7 +133,17 @@ startGame = () => {
     questionCounter = 0;
     score = 0;
     availableQuestions = [...questions];
+    getNewQuestion();
   };
+
+
+  getNewQuestion = () => {
+
+    questionCounter++;
+    const questionList = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionList];
+    question.innerText = currentQuestion.question;
+  }
 
   startGame();
   
