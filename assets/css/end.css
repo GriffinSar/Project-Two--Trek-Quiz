@@ -21,3 +21,9 @@
 .btn {
     margin: 2px;
 }
+
+.score-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
