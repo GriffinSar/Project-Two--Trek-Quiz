@@ -180,13 +180,12 @@ footer{
   }
 
 
-
 /*Game Page*/
 
 .game-container {
     max-width: 80rem;
     margin: 0 auto;
-    padding: 5rem;
+    padding: 4rem;
 }
 
 /* HUD */
