@@ -154,7 +154,10 @@ startGame = () => {
 
   choices.forEach(choice => {
     choice.addEventListener('click', e => {
-        console.log(e.target);
+    const selectedChoice = e.target;
+    const selectedAnswer = selectedChoice.dataset["number"];
+
+    getNewQuestion();
     })
   })
 
