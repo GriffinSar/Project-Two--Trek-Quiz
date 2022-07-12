@@ -1,6 +1,5 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
-console.log(choices);
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -129,3 +128,12 @@ let questions = [
 //Create Constants these do not change
 const CORRECT_SCORE = 10;
 const MAX_QUESTIONS = 14;
+
+startGame = () => {
+    questionCounter = 0;
+    score = 0;
+    availableQuestions = [...questions];
+  };
+
+  startGame();
+  
