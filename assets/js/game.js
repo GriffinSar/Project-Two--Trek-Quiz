@@ -1,9 +1,10 @@
 const question = document.getElementById('question');
 const choices = Array.from(document.getElementsByClassName('choice-text'));
 //Variables for Hud
-const progressText = document.getElementById("progressText");
-const progressBarFull = document.getElementById("progressBarFull");
+const progressText = document.getElementById("progress");
 const scoreText = document.getElementById("score");
+const progressBarFull = document.getElementById("progressBarFull");
+
 
 let currentQuestion = {};
 let acceptingAnswers = true;
@@ -147,7 +148,12 @@ startGame = () => {
         //go to the end page
         return window.location.assign("/end.html");
       }
-    questionCounter++;
+     questionCounter++;
+
+     progressText.innerText = `Question ${questionCounter}/${MAX_QUESTIONS}`;
+    //Update the progress bar
+    progressBarFull.style.width = `${(questionCounter / MAX_QUESTIONS) * 100}%`;
+
     const questionList = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionList];
     question.innerText = currentQuestion.question;
