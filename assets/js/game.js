@@ -138,7 +138,11 @@ startGame = () => {
 
 
   getNewQuestion = () => {
-
+    if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+        localStorage.setItem("mostRecentScore", score);
+        //go to the end page
+        return window.location.assign("/end.html");
+      }
     questionCounter++;
     const questionList = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionList];
@@ -158,8 +162,8 @@ startGame = () => {
     const selectedAnswer = selectedChoice.dataset["number"];
 
     getNewQuestion();
-    })
-  })
+    });
+  });
 
 
   startGame();
