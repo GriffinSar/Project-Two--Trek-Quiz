@@ -13,4 +13,11 @@
     color: white;
 }
 
+#endbtn {
+    display: flex;
+    justify-content: center;
+}
 
+.btn {
+    margin: 2px;
+}
