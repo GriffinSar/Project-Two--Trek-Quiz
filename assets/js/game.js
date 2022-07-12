@@ -219,6 +219,9 @@ incrementScore = num => {
     timer.innerHTML = timerString
   }, 1000)
   
+  function endGame() {
+    return window.location.assign("/end.html")
+  }
 
 
   startGame();
