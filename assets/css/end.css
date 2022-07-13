@@ -49,3 +49,25 @@
     border-color:#f6cf23;
     
 }
+
+/*name generator*/
+.name-generator {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f6cf23;
+    padding-bottom: 20px;
+    border-radius: 4px;
+    margin-left: 150px;
+    width: 75%;
+    margin-top: 75px;
+}
+
+
+.instructiions,
+.name-button,
+.fname,
+.lname {
+color: black;
+font-size: 20px;
+}
