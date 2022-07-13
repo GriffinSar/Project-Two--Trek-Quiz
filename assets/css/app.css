@@ -304,6 +304,31 @@ padding-top: 2px;
   img {
     width: 70%;
   }
+
+  .game-container {
+   width: 100%;
+    
+  }
+
+  .console-left {
+    height: 100%;
+    width: 20%;
+  }
+
+  #question {
+    font-size: medium;
+  }
+
+  .choice-container {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .game-container {
+    width: 70%;
+  }
 }
 
 
