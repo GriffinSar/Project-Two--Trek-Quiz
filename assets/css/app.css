@@ -299,4 +299,12 @@ padding-top: 2px;
   background-color: #dc3545;
 }
 
+/*Media Queries*/
+
+@media screen and (max-width: 450px) {
+  img {
+    width: 70%;
+  }
+}
+
 
