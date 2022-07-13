@@ -192,6 +192,7 @@ footer{
 .hud {
   display: flex;
   justify-content: space-between;
+  height: 85px;
     
 }
 
