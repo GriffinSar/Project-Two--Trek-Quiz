@@ -336,4 +336,19 @@ padding-top: 2px;
   }
 }
 
+@media screen and (max-width: 340px) {
+  #progressBar {
+    width: 10rem;
+    height: 3rem;
+  }
+
+  #progressBarFull {
+    height: 2.4rem;
+  }
+
+  #question {
+    padding-top: 20px;
+  }
+}
+
 
