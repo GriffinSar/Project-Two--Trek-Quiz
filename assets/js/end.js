@@ -7,10 +7,10 @@ const nameBTN = document.querySelector(".name-button");
 finalScore.innerText = mostRecentScore;
 
 const firstName = [
-    "Sarah", "Oisin", "Saoirse", "Eanna", "Frodo"]
+    "Spock", "Nyota", "Jean-Luc", "Data", "Troy", "Odo", "Quark", "Jadzia", "B'Elanna" , "Chakotay"]
 
 const lastName = [
-    "Walsh", "Griffin", "Leahy", "Phelan", "Smith"
+    "Kirk", "Janeway", "Picard", "Dax", "Torres", "Sisko", "O'Brien", "Nerys", "Troi", "Pike"
 ]
 
 nameBTN.addEventListener('click', function() {
