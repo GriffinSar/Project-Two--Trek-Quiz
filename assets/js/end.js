@@ -24,3 +24,14 @@ nameBTN.addEventListener('click', function() {
 let imageWin = document.querySelector(".win-image");
 let scoreNum =  parseInt(mostRecentScore);
 let winMsg = document.querySelector('.win-text');
+
+if (scoreNum < 50) {
+    imageWin.src="assets/images/picard-dissapointed.webp";
+    winMsg.innerText = "Not good";
+  } else if (scoreNum < 110) {
+      imageWin.src="assets/images/riker2.webp";
+      winMsg.innerText = "Good";
+  } else {
+      imageWin.src="assets/images/barclay.webp";
+      winMsg.innerText = "Brilliant";
+  }

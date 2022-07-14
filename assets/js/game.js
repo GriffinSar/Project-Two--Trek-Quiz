@@ -200,6 +200,7 @@ incrementScore = num => {
   setInterval(function () {
 
     if (countDownTimer < 0) {
+      localStorage.setItem("mostRecentScore", score);
         endGame();
     } else {
         countDownTimer--
