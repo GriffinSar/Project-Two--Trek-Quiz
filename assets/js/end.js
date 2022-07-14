@@ -20,3 +20,7 @@ nameBTN.addEventListener('click', function() {
     lName.innerHTML = 
     lastName[Math.floor(Math.random() * lastName.length)];
 });
+
+let imageWin = document.querySelector(".win-image");
+let scoreNum =  parseInt(mostRecentScore);
+let winMsg = document.querySelector('.win-text');
