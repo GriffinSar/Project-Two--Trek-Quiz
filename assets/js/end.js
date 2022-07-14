@@ -25,6 +25,7 @@ let imageWin = document.querySelector(".win-image");
 let scoreNum =  parseInt(mostRecentScore);
 let winMsg = document.querySelector('.win-text');
 
+/* Sets text and image*/
 if (scoreNum < 50) {
     imageWin.src="assets/images/picard-dissapointed.webp";
     winMsg.innerText = "Not good";
