@@ -68,7 +68,8 @@
 .instructiions,
 .name-button,
 .fname,
-.lname {
+.lname,
+.species {
 color: black;
 font-size: 20px;
 }
