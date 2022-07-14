@@ -86,6 +86,13 @@ font-size: 20px;
     padding: 2px;
 }
 
+.name-container {
+    border: solid;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+}
+
 /*shows page*/
 
 .shows-img {
