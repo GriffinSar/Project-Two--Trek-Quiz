@@ -37,3 +37,5 @@ As this website is designed for those interested in Star Trek the game page is d
 
 Click the link to be directed to the live website:
 
+![responsive](assets/images/read.me/responsive.png)
+
