@@ -28,3 +28,12 @@
     - [Technologies](#technologies)
 - [Acknowledgements](#acknowledgements)
 - [Disclaimer](#disclaimer)
+
+# Star Trek Quiz
+
+### Purpose
+The Star Trek Quiz page is designed to be a fun quiz for those interested in Star Trek. It has a quiz that asks questions about the star trek shows. It gives the user a result at the end depending on their score and has a name generator that the user can click to get a random Star Trek name and species. 
+As this website is designed for those interested in Star Trek the game page is designed to resemble one of the consoles from the enterprise. Along with using images from the show and the Star Trek logo for brand recognition.
+
+Click the link to be directed to the live website:
+
