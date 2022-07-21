@@ -37,5 +37,7 @@ As this website is designed for those interested in Star Trek the game page is d
 
 Click the link to be directed to the live website:
 
-![responsive](assets/images/read.me/responsive.png)
+![responsive](assets/images/readme/responsive.png)
 
+### Target Audience
+The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site.
