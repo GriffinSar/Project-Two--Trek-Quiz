@@ -52,3 +52,19 @@ As a returning visitor I want to be able to take the quiz again to see if I can 
 ### Frequent Visitor Goals
 As a frequent visitor I want to be able to check if there are new questions added to the quiz or name generator. Or any new feartures added in general.
 
+# Design
+### Colour scheme
+Star Trek has a distinct colour scheme which I aimed to stick as closely to as possible. I have taken the main inspiration from the show The Next Generation (As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable). My aim was to have the quiz resemble a console from TNG as closely as possible. 
+The below image is a selection of the colours of the console screens in TNG and this is what I have selected from. 
+
+![colorScheme](assets/images/readme/Colour%20Scheme.png)
+
+### Logo
+For the website Logo I have used an image of the Star Trek Logo taken from the original series. This is a very recognisable font and logo which would draw the user’s interest and create instant brand recognition. 
+
+![logo](assets/images/logo-startrek.webp)
+
+### Text
+
+### Imagery 
+For the background of the main page, I have used an image of space and stars. It is fitting with theme of the website while also not being too busy and letting the text be the focus. The home page has a gif of the enterprise. The game page has imagery of a console from the enterprise to give the user the impression that they are playing the game on a star ship console. The end page uses various images of TNG depending on the score. 
