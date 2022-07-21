@@ -68,3 +68,8 @@ For the website Logo I have used an image of the Star Trek Logo taken from the o
 
 ### Imagery 
 For the background of the main page, I have used an image of space and stars. It is fitting with theme of the website while also not being too busy and letting the text be the focus. The home page has a gif of the enterprise. The game page has imagery of a console from the enterprise to give the user the impression that they are playing the game on a star ship console. The end page uses various images of TNG depending on the score. 
+
+# WireFrames
+
+![home](assets/images/readme/Home%20Wireframe.png)
+![game](assets/images/readme/Game%20wireframe.png)
