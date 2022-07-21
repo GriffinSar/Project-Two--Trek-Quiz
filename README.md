@@ -39,5 +39,16 @@ Click the link to be directed to the live website:
 
 ![responsive](assets/images/readme/responsive.png)
 
-### Target Audience
+# Target Audience
 The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site.
+
+# User Stories
+### First Time Visitor Goals
+As a first-time visitor I want to easily be able to understand the purpose of the site – eg that this is a quiz about Star Trek. I want to be able to easily navigate to the quiz page. I also want to get additional information on the show.
+
+### Returning Visitor Goals
+As a returning visitor I want to be able to take the quiz again to see if I can improve my score. I want to be able to go to the shows page and get more information on the shows. 
+
+### Frequent Visitor Goals
+As a frequent visitor I want to be able to check if there are new questions added to the quiz or name generator. Or any new feartures added in general.
+
