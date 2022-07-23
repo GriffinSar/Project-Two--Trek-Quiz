@@ -71,5 +71,9 @@ For the background of the main page, I have used an image of space and stars. It
 
 # WireFrames
 
+### Home
 ![home](assets/images/readme/Home%20Wireframe.png)
+### Game
 ![game](assets/images/readme/Game%20wireframe.png)
+### End
+![end](assets/images/readme/lighthouse-end.png)
