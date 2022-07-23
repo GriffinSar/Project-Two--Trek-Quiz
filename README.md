@@ -57,6 +57,18 @@ As a frequent visitor I want to be able to check if there are new questions adde
 Star Trek has a distinct colour scheme which I aimed to stick as closely to as possible. I have taken the main inspiration from the show The Next Generation (As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable). My aim was to have the quiz resemble a console from TNG as closely as possible. 
 The below image is a selection of the colours of the console screens in TNG and this is what I have selected from. 
 
+Colors used -
+- #ff9900
+- #f6cf23
+- rgba(0,0,0,0.2)
+- rgba(107,107,178, 0.5)
+- #cc6666
+- #6b6bb2
+- #cc99cc
+- #28a745 
+- #dc3545 
+
+
 ![colorScheme](assets/images/readme/Colour%20Scheme.png)
 
 ### Logo
