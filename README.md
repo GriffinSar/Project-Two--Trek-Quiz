@@ -88,7 +88,7 @@ For the background of the main page, I have used an image of space and stars. It
 ### Game
 ![game](assets/images/readme/Game%20wireframe.png)
 ### End
-![end](assets/images/readme/lighthouse-end.png)
+![end](assets/images/readme/wireframe-end.png)
 
 # Features
 
@@ -147,6 +147,17 @@ When the user finishes the quiz they are directed to the end page. The first thi
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
 ![Name Generator](assets/images/readme/Home%20and%20Play%20again.png)
+
+
+# Testing
+
+### Lighthouse
+
+- Home page
+![Home Lighthouse](assets/images/readme/lighthouse%20home.png)
+
+- Game page
+![Game Lighthouse](assets/images/readme/Lighthouse%20game.png)
 
 
 # Deployment
