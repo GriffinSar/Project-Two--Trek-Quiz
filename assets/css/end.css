@@ -112,7 +112,11 @@ font-size: 20px;
     height: 15%;
 }
 */
-
+.head {
+    padding-top: 50px;
+   display: flex;
+   justify-content: center;
+}
 .show-container {
     display: flex;
     flex-direction: column;
