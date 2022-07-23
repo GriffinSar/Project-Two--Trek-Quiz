@@ -147,3 +147,26 @@ When the user finishes the quiz they are directed to the end page. The first thi
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
 ![Name Generator](assets/images/readme/Home%20and%20Play%20again.png)
+
+
+# Deployment
+
+Using Github Pages
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Main Branch
+Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+I then had to wait a few minutes until the site was fully deployed and it was ready.
+The live link can be found here - 
+
+Run Locally
+Navigate to the GitHub Repository:
+Click the Code drop down menu.
+Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+Open your development editor of choice and open a terminal window in a directory of your choice.
+Use the 'git clone' command in terminal followed by the copied git URL.
+A clone of the project will be created locally on your machine.
+
+
+# Disclaimer
+This website is for educational purposes only.
