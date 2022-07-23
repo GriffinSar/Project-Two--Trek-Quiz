@@ -119,6 +119,10 @@ font-size: 20px;
     align-items: center;
 }
 
+.show-vid {
+    font-size: xx-large;
+}
+
 /*Media Queries*/
 
 @media screen and (max-width: 450px) {
