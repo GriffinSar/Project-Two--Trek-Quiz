@@ -153,6 +153,11 @@ This is located at the end of the page it gives the user the option to either pl
 
 # Testing
 
+### Manual Testing
+
+- Home page
+![Home Testing](assets/images/readme/Home%20page%20testing.png)
+
 ### Lighthouse
 
 - Home page
