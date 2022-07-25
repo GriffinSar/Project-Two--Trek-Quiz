@@ -155,12 +155,12 @@ This is located at the end of the page it gives the user the option to either pl
 
 ### Manual Testing
 
-- Home page
+
 ![Home Testing](assets/images/readme/Home%20page%20testing.png)
 
-- Game page
 ![Game Testing](assets/images/readme/game-page-testing.png)
 
+![End Testing](assets/images/readme/testing-end.png)
 ### Lighthouse
 
 - Home page
