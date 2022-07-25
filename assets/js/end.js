@@ -8,13 +8,13 @@ const nameBTN = document.querySelector(".name-button");
 finalScore.innerText = mostRecentScore;
 
 const firstName = [
-    "Spock", "Nyota", "Jean-Luc", "Data", "Troy", "Odo", "Quark", "Jadzia", "B'Elanna" , "Chakotay"]
+    "Spock", "Nyota", "Jean-Luc", "Data", "Troy", "Odo", "Quark", "Jadzia", "B'Elanna" , "Chakotay" , "Saru" , "Michael" , "Brad" , "Shaxs"]
 
 const lastName = [
-    "Kirk", "Janeway", "Picard", "Dax", "Torres", "Sisko", "O'Brien", "Nerys", "Troi", "Pike"
+    "Kirk", "Janeway", "Picard", "Dax", "Torres", "Sisko", "O'Brien", "Nerys", "Troi", "Pike" , "Lorca" , "Pike" ,  "Tendi" , "Boimler" , "Mariner"
 ]
 
-const speciesList = ["Human", "Klingon", "Ferengi", "Trill", "Vulcan", "Andorian", "Bajoran", "Romulan", "Borg", "Q"]
+const speciesList = ["Human", "Klingon", "Ferengi", "Trill", "Vulcan", "Andorian", "Bajoran", "Romulan", "Borg", "Q" , "Kelpien" , "Orion" , "Bolian", "Breen"]
 
 nameBTN.addEventListener('click', function() {
     fName.innerHTML =
