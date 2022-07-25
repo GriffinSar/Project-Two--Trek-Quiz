@@ -141,9 +141,10 @@ When the user finishes the quiz they are directed to the end page. The first thi
 ![Name Generator](assets/images/readme/name-generator.png)
 
 ### Score, result text and Image
+This is located on the end page, it displays the users score along with text and an image that is generated depending on the score the user achieves.
+![Score Result](assets/images/readme/Score-result.png)
 
 ### Play Again, Go Home
-![Score Result](assets/images/readme/Score-result.png)
 
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
