@@ -143,10 +143,11 @@ When the user finishes the quiz they are directed to the end page. The first thi
 ### Score, result text and Image
 
 ### Play Again, Go Home
+![Score Result](assets/images/readme/Score-result.png)
 
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
-![Name Generator](assets/images/readme/Home%20and%20Play%20again.png)
+![Play Again](assets/images/readme/Home%20and%20Play%20again.png)
 
 
 # Testing
