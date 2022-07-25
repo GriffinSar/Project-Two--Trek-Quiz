@@ -159,6 +159,9 @@ This is located at the end of the page it gives the user the option to either pl
 - Game page
 ![Game Lighthouse](assets/images/readme/Lighthouse%20game.png)
 
+- End page 
+![End Lighthouse](assets/images/readme/End%20page%20lighthouse.png)
+
 
 # Deployment
 
