@@ -34,11 +34,11 @@ let winMsg = document.querySelector('.win-text');
 /* Sets text and image*/
 if (scoreNum < 50) {
     imageWin.src="assets/images/picard-dissapointed.webp";
-    winMsg.innerText = "Not good";
+    winMsg.innerText = "'There is a way out of every box, a solution to every puzzle; it’s just a matter of finding it.' - Captain Jean-Luc Picard. Take the wise words of Picard and find your way out of this score, go back watch more Trek and you will surely prevail on your next try.";
   } else if (scoreNum < 110) {
       imageWin.src="assets/images/riker2.webp";
-      winMsg.innerText = "Good";
+      winMsg.innerText = "'Logic is the beginning of wisdom, not the end.'–Spock. Great score but there is room for improvement, go watch some more trek and give this quiz another go you are sure to succeed next time.";
   } else {
       imageWin.src="assets/images/barclay.webp";
-      winMsg.innerText = "Brilliant";
+      winMsg.innerText = "If winning is not important, why keep score? - Worf. Amazing you are clearly a true Trekkie, go celebrate your great win by watching another episode of Star Trek";
   }
