@@ -222,6 +222,11 @@ The quotes used for the end page were taken from the show star trek
 
 All other text was writen by me.
 
+### Media
+
+Images for this site were found using google images. They are all images from the shows of Star Trek
+
+
 ### Code
 
 I used the below sites to help me design and style my site.
@@ -231,9 +236,22 @@ https://www.youtube.com/watch?v=icb9AUBeznQ
 
 ### Technologies
 
-The project was primarily written in HTML , CSS and JavaScript.
-The project was written and tested in the Gitpod IDE.
-The project was debugged using Google Chrome Dev Tools.
+- The project was primarily written in HTML , CSS and JavaScript.
+- The project was written and tested in the Gitpod IDE.
+- The project was debugged using Google Chrome Dev Tools.
+- The project's template was generated from Code Institute's Gitpod Template.
+- The project uses FontAwesome.
+- The images were converted to webp using cloud convert.
+- The project's accessibility was tested via Google Chrome's Lighthouse.
+- The project's HTML was validated using W3C HTML Markup Validator.
+- The project's CSS was validated using W3C Jigsaw CSS Validator.
+- The project's wireframes were designed in Balsamiq.
+- Checked indentation of HTML with FreeFormatter.com
+- Referenced this website on how to create a drop down menu https://www.w3schools.com/howto/howto_css_dropdown.asp 
+- 
+
+
+
 
 
 
