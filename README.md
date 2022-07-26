@@ -212,6 +212,19 @@ Open your development editor of choice and open a terminal window in a directory
 Use the 'git clone' command in terminal followed by the copied git URL.
 A clone of the project will be created locally on your machine.
 
+# Credits
+
+### Content
+
+Content for the questions on this site were taken from - https://intl.startrek.com/ultimate-star-trek-captains-trivia-quiz and https://entertainment.ie/tv/tv-news/the-ultimate-star-trek-the-next-generation-quiz-209297/
+
+The quotes used for the end page were taken from the show star trek
+
+All other text was writen by me.
+
+
+
+
 
 # Disclaimer
 This website is for educational purposes only.
