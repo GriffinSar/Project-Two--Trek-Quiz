@@ -174,11 +174,20 @@ This is located at the end of the page it gives the user the option to either pl
 
 ### Validator Testing
 
-# HTML 
+## HTML 
 - Home
 ![HTML validator](assets/images/readme/Home%20HTML%20VAL.png)
 
 - Game
+![HTML validator](assets/images/readme/game-html-valid.png)
+
+## Css
+
+- App.css
+![app-css validator](assets/images/readme/app-css-valid.png)
+
+- End.css
+![end-css validator](assets/images/readme/end-css-valid.png)
 
 
 # Deployment
