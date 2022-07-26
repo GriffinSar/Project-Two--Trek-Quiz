@@ -124,6 +124,19 @@ font-size: 20px;
     width: 100%;
 }
 
+.top-button {
+    border-radius: 4px;
+    background-color: #ff9900;
+    padding: 2px;
+    color: black;
+    width: 100px;
+    height: 30px;
+}
+
+.top-button:hover {
+    background-color: #f6cf23;
+  }
+
 .show-vid {
     font-size: xx-large;
 }
