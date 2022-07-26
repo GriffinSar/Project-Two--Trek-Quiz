@@ -172,6 +172,14 @@ This is located at the end of the page it gives the user the option to either pl
 - End page 
 ![End Lighthouse](assets/images/readme/End%20page%20lighthouse.png)
 
+### Validator Testing
+
+# HTML 
+- Home
+![HTML validator](assets/images/readme/Home%20HTML%20VAL.png)
+
+- Game
+
 
 # Deployment
 
