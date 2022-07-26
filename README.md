@@ -222,7 +222,18 @@ The quotes used for the end page were taken from the show star trek
 
 All other text was writen by me.
 
+### Code
 
+I used the below sites to help me design and style my site.
+
+I used this youtube tutorial to help me create my quiz. I have used some code from the tutorial while also adding code of my own.
+https://www.youtube.com/watch?v=icb9AUBeznQ
+
+### Technologies
+
+The project was primarily written in HTML , CSS and JavaScript.
+The project was written and tested in the Gitpod IDE.
+The project was debugged using Google Chrome Dev Tools.
 
 
 
