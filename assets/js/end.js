@@ -14,7 +14,7 @@ const lastName = [
     "Kirk", "Janeway", "Picard", "Dax", "Torres", "Sisko", "O'Brien", "Nerys", "Troi", "Pike" , "Lorca" , "Pike" ,  "Tendi" , "Boimler" , "Mariner"
 ]
 
-const speciesList = ["Human", "Klingon", "Ferengi", "Trill", "Vulcan", "Andorian", "Bajoran", "Romulan", "Borg", "Q" , "Kelpien" , "Orion" , "Bolian", "Breen"]
+const speciesList = ["Human", "Klingon", "Ferengi", "Trill", "Vulcan", "Andorian", "Bajoran", "Romulan", "Borg", "Q", "Kelpien", "Orion", "Bolian", "Breen", "Betazoid"]
 
 nameBTN.addEventListener('click', function() {
     fName.innerHTML =
