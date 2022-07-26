@@ -113,7 +113,7 @@ font-size: 20px;
 }
 
 .head {
-    padding-top: 50px;
+   padding-top: 50px;
    display: flex;
    justify-content: center;
 }
@@ -121,6 +121,7 @@ font-size: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
 }
 
 .show-vid {
@@ -141,5 +142,9 @@ font-size: 20px;
 
     .win-image {
         width: 50%;
+    }
+
+    .show-vid {
+        font-size: large;
     }
 }
