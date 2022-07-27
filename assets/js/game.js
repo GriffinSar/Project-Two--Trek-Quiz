@@ -135,6 +135,7 @@ const CORRECT_SCORE = 10;
 const MAX_QUESTIONS = 14;
 const INNCORECT_TIMER = -10;
 
+/* code from this tutorial used but adjusted and added to for this project https://www.youtube.com/watch?v=icb9AUBeznQ */
 //Start Game Function
 startGame = () => {
     questionCounter = 0;
