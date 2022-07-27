@@ -106,40 +106,59 @@ font-size: 20px;
 
 /*shows page*/
 
-
-.shows-img {
-    width: 20%;
-    height: 15%;
-}
-
 .head {
-   padding-top: 50px;
-   display: flex;
-   justify-content: center;
-}
-.show-container {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .container{
+    display: flex;
+    align-items: center;
+  }
+ 
+.show-image {
+    height: 60%;
+  }
+  
+ /* Parent Container */.content-image{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
     width: 100%;
-}
-
-.top-button {
-    border-radius: 4px;
-    background-color: #ff9900;
-    padding: 2px;
-    color: black;
-    width: 100px;
-    height: 30px;
-}
-
-.top-button:hover {
-    background-color: #f6cf23;
+   }
+   
+   /* Child Text Container */.content-image div{
+    position: relative;
+    bottom: 200px;
+    right: 0%;
+    color: white;
+    font-size: large;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.5s linear; 
+    transition: visibility 0s, opacity 0.5s linear;
+   }
+   
+   /* Hover on Parent Container */.content-image:hover{
+    cursor: pointer;
+   }
+   
+  
+   .content-image:hover div{
+    width: 50%;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 1; 
+   }
+  
+   .show-image:hover{
+    opacity: 0.4;
+    z-index: 1;
   }
 
-.show-vid {
-    font-size: xx-large;
-}
 
 /*Media Queries*/
 
