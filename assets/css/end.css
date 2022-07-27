@@ -133,8 +133,8 @@ font-size: 20px;
    }
    
    /* Child Text Container */.content-image div{
-    position: absolute;
-    bottom: 50%; 
+    position: relative;
+    bottom: 200px; 
     color: rgb(255, 255, 255);
     font-size: medium; 
     opacity: 0;
@@ -146,7 +146,6 @@ font-size: 20px;
    
   
    .content-image:hover div{
-    width: 50%;
     visibility: visible;
     opacity: 1;
     z-index: 2; 
