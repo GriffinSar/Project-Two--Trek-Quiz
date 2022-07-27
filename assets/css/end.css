@@ -117,10 +117,12 @@ font-size: 20px;
     align-items: center;
     width: 70%;
     padding-left: 30%;
+    padding-bottom: 5%;
   }
  
 .show-image {
-    height: 60%;
+    height: 75%;
+    width: 100%;
   }
   
  /* Parent Container */.content-image{
@@ -132,8 +134,7 @@ font-size: 20px;
    
    /* Child Text Container */.content-image div{
     position: absolute;
-    bottom: 20%;
-    right: 25%;
+    bottom: 50%; 
     color: rgb(255, 255, 255);
     font-size: medium; 
     opacity: 0;
