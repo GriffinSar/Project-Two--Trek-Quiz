@@ -8,8 +8,6 @@
     border-color:#f6cf23;
 }
 
-
-
 .end-score {
     height: 130px; 
     display: flex;
@@ -75,7 +73,7 @@
     border-radius: 4px;
     margin-left: 150px;
     width: 75%;
-    margin-top: 75px;
+    margin-top: 150px;
 }
 
 

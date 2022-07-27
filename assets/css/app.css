@@ -34,6 +34,7 @@ header {
   
 img {
     height: 100px;  
+    z-index: 1;
   }
 
 /* Dropdown Button */
@@ -96,6 +97,7 @@ h1 {
   width: 100%;
   height: 100px;
   background-color: #040404;
+  z-index: 3;
 }
 
 .sticky + .content {
