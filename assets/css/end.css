@@ -131,12 +131,11 @@ font-size: 20px;
    }
    
    /* Child Text Container */.content-image div{
-    position: relative;
-    bottom: 250px;
-    right: 0%;
+    position: absolute;
+    bottom: 20%;
+    right: 25%;
     color: rgb(255, 255, 255);
-    font-size: medium;
-    
+    font-size: medium; 
     opacity: 0;
    }
    
@@ -148,7 +147,11 @@ font-size: 20px;
    .content-image:hover div{
     width: 50%;
     visibility: visible;
-    opacity: 1; 
+    opacity: 1;
+    z-index: 2; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
    }
   
    .show-image:hover{
