@@ -115,6 +115,8 @@ font-size: 20px;
  .container{
     display: flex;
     align-items: center;
+    width: 70%;
+    padding-left: 30%;
   }
  
 .show-image {
@@ -130,16 +132,18 @@ font-size: 20px;
    
    /* Child Text Container */.content-image div{
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     right: 0%;
     color: white;
     font-size: large;
     margin-bottom: 5px;
     font-family: sans-serif;
     opacity: 0;
+    /*
     visibility: hidden;
     -webkit-transition: visibility 0s, opacity 0.5s linear; 
     transition: visibility 0s, opacity 0.5s linear;
+    */
    }
    
    /* Hover on Parent Container */.content-image:hover{
