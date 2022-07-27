@@ -159,6 +159,25 @@ font-size: 20px;
     z-index: 1;
   }
 
+  /*Style for the back to top button*/
+
+
+  .top-button {
+    background-color: #ff9900;
+    border-radius: 4px;
+    width: 25%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    margin-left: 100px;
+  }
+
+  .top-button:hover{
+    background-color:  #f6cf23;;
+  }
+
 
 /*Media Queries*/
 
