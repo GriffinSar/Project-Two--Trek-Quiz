@@ -40,7 +40,7 @@ Click the link to be directed to the live website: https://griffinsar.github.io/
 ![responsive](assets/images/readme/responsive.png)
 
 # Target Audience
-The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site.
+The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site. The questions are tough but general enough that it can be played by those who know a lot about Trek and those new to the series. The shows page also gives a small bit of history on each show and lists them all which could be helpful for a new fan.
 
 # User Stories
 ### First Time Visitor Goals
@@ -79,7 +79,7 @@ For the website Logo I have used an image of the Star Trek Logo taken from the o
 ### Text
 
 The font used in this site is : Arial, Helvetica, sans-serif;
-The font is similar in style to the fonts used in the console images and so ties in nicely with this image and the site in general giving a cohesive look. I believe a busier looking font would detract from the game and design of the pages.
+The font is similar in style to the fonts used in the console images and so ties in nicely with this image. It gives the site a cohesive look. I believe a busier looking font would detract from the game and design of the pages.
 
 
 ### Imagery 
@@ -155,6 +155,18 @@ This is located on the end page, it displays the users score along with text and
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
 ![Play Again](assets/images/readme/home-and-playagain.png)
+
+### Shows Page Text on Hover for each image
+
+This is the main feature of the end page. It is a list of images from each of the Star Trek shows, one image for each. When the user hovers over each image text relating to the show appears. This is useful for the user as if they are unfamiliar with the shows it gives them a list and a bit of information on each. For those who are familar with Star Trek it could be of interest to them as they can see if maybe there is information there that they may not already be familiar with. 
+
+![Show Hover](assets/images/readme/shows-page-feature.png)
+
+### Top button on shows page
+
+I added a button the user can click to be directed back to the top of the page just on the shows page. I added it here as it was the only page that was quite long and would take a good deal of scrolling for the user to get back to the top of the page. But with the top button the user can automatically click to be directed back to the top.
+
+![Top Button](assets/images/readme/shows-page-top.png)
 
 
 # Testing
