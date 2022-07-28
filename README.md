@@ -78,6 +78,10 @@ For the website Logo I have used an image of the Star Trek Logo taken from the o
 
 ### Text
 
+The font used in this site is : Arial, Helvetica, sans-serif;
+The font is similar in style to the fonts used in the console images and so ties in nicely with this image and the site in general giving a cohesive look. I believe a busier looking font would detract from the game and design of the pages.
+
+
 ### Imagery 
 For the background of the main page, I have used an image of space and stars. It is fitting with theme of the website while also not being too busy and letting the text be the focus. The home page has a gif of the enterprise. The game page has imagery of a console from the enterprise to give the user the impression that they are playing the game on a star ship console. The end page uses various images of TNG depending on the score. 
 
@@ -163,7 +167,8 @@ This is located at the end of the page it gives the user the option to either pl
 ![Game Testing](assets/images/readme/game-page-testing.png)
 
 ![End Testing](assets/images/readme/testing-end.png)
-### Lighthouse
+
+### Lighthouse Testing
 
 - Home page
 ![Home Lighthouse](assets/images/readme/lighthouse%20home.png)
@@ -175,7 +180,11 @@ This is located at the end of the page it gives the user the option to either pl
 ![End Lighthouse](assets/images/readme/End%20page%20lighthouse.png)
 
 - Shows page
+
+Performance is on the lower side because of the images. I have resized them all to be webp to improve performance.
 ![Shows Lighthouse](assets/images/readme/lighthouse-shows.png)
+
+ 
 
 ### Validator Testing
 
