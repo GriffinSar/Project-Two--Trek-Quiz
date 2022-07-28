@@ -1,93 +1,95 @@
 :root {
-    /* 62.5% of 16px browser font size is 10px */
-    font-size: 62.5%;
+  /* 62.5% of 16px browser font size is 10px */
+  font-size: 62.5%;
 }
 
-*{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: rgb(235, 223, 223);
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: rgb(235, 223, 223);
 }
 
 /*body*/
 
 body {
-    background: url(../images/star-background.jpg);
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-  }
+  background: url(../images/star-background.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
 
 /*header*/
 
 header {
-    height: 80px; 
-  }
+  height: 80px;
+}
 
 #logo {
-    width: 50%;
-    height: 100px;
-    float: left;
+  width: 50%;
+  height: 100px;
+  float: left;
 }
-  
+
 img {
-    height: 100px;  
-    z-index: 1;
-  }
+  height: 100px;
+  z-index: 1;
+}
 
 /* Dropdown Button */
 .dropbtn {
-    background-color: #ff9900;
-    border-radius: 4px;
-    color: black;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    width: 100px;
-    height: 50px;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    padding-top: 4rem;
-    padding-left: 2rem; 
-    border-radius: 4px;
-    width: 40%;
-    float: left;  
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f6cf23;
-    min-width: 80px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 3;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ff9900;}
+  background-color: #ff9900;
+  border-radius: 4px;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  border-radius: 4px;
+  width: 40%;
+  float: left;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6cf23;
+  min-width: 80px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 3;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ff9900;
+}
 
 /* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {  
+.dropdown:hover .dropdown-content {
   display: flex;
 }
 
 h1 {
-    font-size: 5.4rem;
-    color: #f6cf23;
-    margin-bottom: 5rem;
+  font-size: 5.4rem;
+  color: #f6cf23;
+  margin-bottom: 5rem;
 }
 
 /* To make Nav sticky */
@@ -100,7 +102,7 @@ h1 {
   z-index: 3;
 }
 
-.sticky + .content {
+.sticky+.content {
   padding-top: 30px;
 }
 
@@ -108,85 +110,84 @@ h1 {
 
 /* ship gif */
 .ship {
-    height: 20%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-      }
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+}
 
 /*Engage button styling */
 .start-box {
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 5rem;
-    flex-direction: column;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 5rem;
+  flex-direction: column;
 }
 
 /* BUTTONS */
 .btn {
-    font-size: 1.8rem;
-    padding: 1rem 0;
-    width: 20rem;
-    text-align: center;
-    border: 0.1rem solid #f6cf23;
-    border-radius: 4px;
-    margin-bottom: 1rem;
-    text-decoration: none;
-    color: #040404;
-    background-color: #ff9900;
-  }
-  
-  .btn:hover {
-    cursor: pointer;
-    background-color: #f6cf23;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(107,107,178, 0.5);
-    transform: translateY(-0.1rem);
-    transition: transform 150ms;
-  }
-  
-/*footer*/
+  font-size: 1.8rem;
+  padding: 1rem 0;
+  width: 20rem;
+  text-align: center;
+  border: 0.1rem solid #f6cf23;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  color: #040404;
+  background-color: #ff9900;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #f6cf23;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(107, 107, 178, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
 
 /*footer*/
-footer{
-    display:flex;
-    height: 100px;
-    width: 100%;
-    justify-content:center;
-    align-items:center;
-  }
-  
-  /* sets the list horizontally*/
-  .social-networks > li {
-    display: inline;
-    float:left;
-    margin:20px;
-  }
+footer {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
-  /* appearance of list items*/
-  .social-networks i {
-    font-size: 2.5rem;
-    margin: 1%;
-    padding: 3% 5%;
-    color:#ff9900;
-  }
+/* sets the list horizontally*/
+.social-networks>li {
+  display: inline;
+  float: left;
+  margin: 20px;
+}
 
-  /*sets yellow when hover*/
-  li i:hover {
-    color: #f6cf23;
-  }
+/* appearance of list items*/
+.social-networks i {
+  font-size: 2.5rem;
+  margin: 1%;
+  padding: 3% 5%;
+  color: #ff9900;
+}
+
+/*sets yellow when hover*/
+li i:hover {
+  color: #f6cf23;
+}
 
 
 /*Game Page*/
 
 .game-container {
-    max-width: 80rem;
-    margin: 0 auto;
-    padding: 4rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 4rem;
 }
 
 /* HUD */
@@ -195,7 +196,7 @@ footer{
   display: flex;
   justify-content: space-between;
   height: 85px;
-    
+
 }
 
 .hud-prefix {
@@ -216,9 +217,9 @@ footer{
 }
 
 #progressBarFull {
-height: 3.4rem;
-background-color: #cc6666;  
-width: 0%;
+  height: 3.4rem;
+  background-color: #cc6666;
+  width: 0%;
 }
 
 /* Questions and answers*/
@@ -233,7 +234,7 @@ width: 0%;
 }
 
 .choice-container:hover {
-  cursor:pointer;
+  cursor: pointer;
   transform: translateY(-0.1rem);
 }
 
@@ -257,23 +258,22 @@ width: 0%;
 
 /*console images*/
 .console-top {
-   height: 20%;
-   display: block;
-   margin-left: auto;
-   margin-right: auto;
-   visibility: visible;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .console-left {
-float: left;
-height: 15%;
-width: 10%;
-padding-top: 2px;
+  float: left;
+  height: 15%;
+  width: 10%;
+  padding-top: 2px;
 }
 
 .console-topT {
- width:80%;
- height:auto ;
+  width: 80%;
+  height: auto;
 }
 
 /*Timer*/
@@ -289,7 +289,7 @@ padding-top: 2px;
   font-size: 2rem;
   text-align: center;
   padding-top: 10px;
-  
+
 }
 
 /* Classes for when user chooses right or wrong answer*/
@@ -313,8 +313,8 @@ padding-top: 2px;
   }
 
   .game-container {
-   width: 100%;
-    
+    width: 100%;
+
   }
 
   .console-left {
@@ -330,10 +330,17 @@ padding-top: 2px;
     width: 100%;
     font-size: 1rem;
   }
+
+  .console-top {
+    padding-top: 10px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .game-container {
+    width: 70%;
+  }
+  .console-top {
     width: 70%;
   }
 }
@@ -353,4 +360,9 @@ padding-top: 2px;
   }
 }
 
+@media screen and (max-width: 2560px) {
+  .console-top {
+    width:70%
+  }
 
+} 

@@ -89,6 +89,8 @@ For the background of the main page, I have used an image of space and stars. It
 ![game](assets/images/readme/Game%20wireframe.png)
 ### End
 ![end](assets/images/readme/wireframe-end.png)
+### Shows
+![Sows](assets/images/readme/shows-wireframe.png)
 
 # Features
 
