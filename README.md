@@ -35,7 +35,7 @@
 The Star Trek Quiz page is designed to be a fun quiz for those interested in Star Trek. It has a quiz that asks questions about the star trek shows. It gives the user a result at the end depending on their score and has a name generator that the user can click to get a random Star Trek name and species. 
 As this website is designed for those interested in Star Trek the game page is designed to resemble one of the consoles from the enterprise. Along with using images from the show and the Star Trek logo for brand recognition.
 
-Click the link to be directed to the live website:
+Click the link to be directed to the live website: https://griffinsar.github.io/Project-Two--Trek-Quiz/index.html
 
 ![responsive](assets/images/readme/responsive.png)
 
@@ -174,6 +174,9 @@ This is located at the end of the page it gives the user the option to either pl
 - End page 
 ![End Lighthouse](assets/images/readme/End%20page%20lighthouse.png)
 
+- Shows page
+![Shows Lighthouse](assets/images/readme/lighthouse-shows.png)
+
 ### Validator Testing
 
 ## HTML 
@@ -204,7 +207,7 @@ In the GitHub repository, navigate to the Settings tab
 From the source section drop-down menu, select the Main Branch
 Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 I then had to wait a few minutes until the site was fully deployed and it was ready.
-The live link can be found here - 
+The live link can be found here - https://griffinsar.github.io/Project-Two--Trek-Quiz/index.html
 
 Run Locally
 Navigate to the GitHub Repository:
@@ -218,15 +221,17 @@ A clone of the project will be created locally on your machine.
 
 ### Content
 
-Content for the questions on this site were taken from - https://intl.startrek.com/ultimate-star-trek-captains-trivia-quiz and https://entertainment.ie/tv/tv-news/the-ultimate-star-trek-the-next-generation-quiz-209297/
+Content for the questions on this site were taken from - https://intl.startrek.com/ultimate-star-trek-captains-trivia-quiz and https://entertainment.ie/tv/tv-news/the-ultimate-star-trek-the-next-generation-quiz-209297/.
 
-The quotes used for the end page were taken from the show star trek
+The text for the images on the end page was taken from wikipedia. - https://www.wikipedia.org/
+
+The quotes used for the end page were taken from the show star trek.
 
 All other text was writen by me.
 
 ### Media
 
-Images for this site were found using google images. They are all images from the shows of Star Trek
+Images for this site were found using google images. They are all images from the shows of Star Trek.
 
 
 ### Code
@@ -235,6 +240,9 @@ I used the below sites to help me design and style my site.
 
 I used this youtube tutorial to help me create my quiz. I have used some code from the tutorial while also adding code of my own.
 https://www.youtube.com/watch?v=icb9AUBeznQ
+
+I used code from this page to help me style the shows page so that text showed when you hovered over the images. I added and adjusted the code to work for my project 
+https://makitweb.com/html-how-to-show-text-above-image-on-hover/
 
 ### Technologies
 
