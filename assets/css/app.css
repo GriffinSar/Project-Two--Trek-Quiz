@@ -359,10 +359,4 @@ li i:hover {
     padding-top: 20px;
   }
 }
-
-@media screen and (max-width: 2560px) {
-  .console-top {
-    width:70%
-  }
-
-} 
+ 
