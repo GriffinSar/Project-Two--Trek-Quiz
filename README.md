@@ -69,7 +69,7 @@ Colors used -
 - #dc3545 
 
 
-![colorScheme](assets/images/readme/Colour%20Scheme.png)
+![colorScheme](assets/images/readme/colour-scheme.png)
 
 ### Logo
 For the website Logo I have used an image of the Star Trek Logo taken from the original series. This is a very recognisable font and logo which would draw the user’s interest and create instant brand recognition. 
@@ -88,9 +88,9 @@ For the background of the main page, I have used an image of space and stars. It
 # WireFrames
 
 ### Home
-![home](assets/images/readme/Home%20Wireframe.png)
+![home](assets/images/readme/home-wireframe.png)
 ### Game
-![game](assets/images/readme/Game%20wireframe.png)
+![game](assets/images/readme/game-wireframe.png)
 ### End
 ![end](assets/images/readme/wireframe-end.png)
 ### Shows
@@ -106,7 +106,7 @@ This section will allow the user to easily navigate from page to page across all
 Logo is featured on all four pages, it is the logo from the original Star Trek series and is used so that the user can recognise quickly what the site and quiz is about. The logo also creates brand recognition.
 The Logo is also a link which if clicked will bring the user back to the home page, this is a standard in websites so is included as this will be what the user is expecting.
 
-![Navigation](assets/images/readme/Drop-down%20menu.png)
+![Navigation](assets/images/readme/drop-down-menu.png)
 ![logo](assets/images/logo-startrek.webp)
 
 ### The Footer
@@ -119,25 +119,25 @@ The footer is valuable to the user as it encourages them to keep connected via s
 
 The is the landing page. The gif is of the enterprise going to warp. The text instructs the user to click the engage button to start the quiz. This is a phrase used in TNG and would be familiar to those interested in star trek. It ties in with the image as Engage is what is said by the captain before the ship goes to warp. All of this should be entertaining to those familiar with Star Trek.
 
-![Main Page](assets/images/readme/Start%20Game.png)
+![Main Page](assets/images/readme/start-game.png)
 ![Ship image](assets/images/enterprise-gif.gif)
 
 ### Game page console images
 
 I have surrounded the game in images of a console from the enterprise. This adds to the site giving it a futuristic look and makes the user feel as if they are taking the quiz on a console from Star Trek.
 
-![Console image](assets/images/readme/Console-image.png)
+![Console image](assets/images/readme/console-image.png)
 
 ### Timer, Score and Question Counter Hub
 
 This section of the game has a timer which counts down from two minutes, this gives the user a challenge as they need to answer all the questions in two minutes. It also get 10 seconds taken from it with each wrong answer. There is a question counter which increases with each question answered and also fills a bar. Finally there is the score counter which is increased by 10 points with every right answer.
-![Timer and Score](assets/images/readme/Timer-Hub.png)
+![Timer and Score](assets/images/readme/timer-hub.png)
 
 ### Questions and Answers
 
 This is the section of the game where the user can see the question and they can select their answer. If they select the correct answer the answer turns green if its wrong it turn red.
 
-![Timer and Score](assets/images/readme/Questions%20and%20answers.png)
+![Timer and Score](assets/images/readme/questions-answers.png)
 
 
 ### Name Generator
@@ -148,13 +148,13 @@ When the user finishes the quiz they are directed to the end page. The first thi
 
 ### Score, result text and Image
 This is located on the end page, it displays the users score along with text and an image that is generated depending on the score the user achieves.
-![Score Result](assets/images/readme/Score-result.png)
+![Score Result](assets/images/readme/score-result.png)
 
 ### Play Again, Go Home
 
 This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
 
-![Play Again](assets/images/readme/Home%20and%20Play%20again.png)
+![Play Again](assets/images/readme/home-and-playagain.png)
 
 
 # Testing
@@ -162,7 +162,7 @@ This is located at the end of the page it gives the user the option to either pl
 ### Manual Testing
 
 
-![Home Testing](assets/images/readme/Home%20page%20testing.png)
+![Home Testing](assets/images/readme/home-page-testing.png)
 
 ![Game Testing](assets/images/readme/game-page-testing.png)
 
@@ -170,16 +170,19 @@ This is located at the end of the page it gives the user the option to either pl
 
 ### Lighthouse Testing
 
-- Home page
-![Home Lighthouse](assets/images/readme/lighthouse%20home.png)
+Home page
 
-- Game page
-![Game Lighthouse](assets/images/readme/Lighthouse%20game.png)
+![Home Lighthouse](assets/images/readme/lighthouse-home.png)
 
-- End page 
-![End Lighthouse](assets/images/readme/End%20page%20lighthouse.png)
+Game page
 
-- Shows page
+![Game Lighthouse](assets/images/readme/lighthouse-game.png)
+
+End page 
+
+![End Lighthouse](assets/images/readme/end-page-lighthouse.png)
+
+Shows page
 
 Performance is on the lower side because of the images. I have resized them all to be webp to improve performance.
 ![Shows Lighthouse](assets/images/readme/lighthouse-shows.png)
@@ -189,11 +192,23 @@ Performance is on the lower side because of the images. I have resized them all 
 ### Validator Testing
 
 ## HTML 
-- Home
-![HTML validator](assets/images/readme/Home%20HTML%20VAL.png)
+Home
 
-- Game
+![HTML validator](assets/images/readme/home-html-val.png)
+
+Game
+
 ![HTML validator](assets/images/readme/game-html-valid.png)
+
+End
+
+![HTML validator](assets/images/readme/game-html-valid.png)
+
+Shows
+
+![HTML validator](assets/images/readme/game-html-valid.png)
+
+
 
 ## Css
 
