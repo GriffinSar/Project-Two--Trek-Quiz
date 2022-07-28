@@ -225,7 +225,7 @@ incrementScore = num => {
   
 //Direct to end page
   function endGame() {
-    return window.location.assign("/end.html")
+    return window.location.assign("end.html")
   }
 
 //Call start game function
