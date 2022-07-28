@@ -173,12 +173,19 @@ I added a button the user can click to be directed back to the top of the page j
 
 ### Manual Testing
 
+![Responsive Testing](assets/images/readme/responsive-test.png)
+
+![Navigation Bar Testing](assets/images/readme/nav-testing.png)
+
+![Footer Testing](assets/images/readme/footer-testing.png)
 
 ![Home Testing](assets/images/readme/home-page-testing.png)
 
 ![Game Testing](assets/images/readme/game-page-testing.png)
 
 ![End Testing](assets/images/readme/testing-end.png)
+
+![Shows Testing](assets/images/readme/shows-test.png)
 
 ### Lighthouse Testing
 
