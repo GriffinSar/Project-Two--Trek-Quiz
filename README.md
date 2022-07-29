@@ -20,6 +20,7 @@
     - [Issues-and-Resolutions](#issues-and-resolutions-found-during-testing)
     - [Lighthouse](#lighthouse-testing)
     - [Validator-Testing](#validator-testing)
+    - [Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Content](#content)
@@ -248,6 +249,16 @@ Game.js
 End.js
 
 ![end-css validator](assets/images/readme/Jshint-end.png)
+
+### Bugs
+
+- Once the site was deployed, I realised that the game page was not automatically directing the user to the end page at the end of the game. The pathway to the end page was wrong in the JavaScript file. I had to go and update this and once I had done this the game worked as expected and directed to the end page.
+
+- For my game JavaScript file when I ran it through the Jshint validator there were several lines that were missing semi-colons and 2 variables that were not used. I removed these from the file and there were then no major errors in the Game.JS file. 
+
+- I had a bug where the sticky nav bar was disappearing behind images on the shows page. I had to update the z-index of the sticky class to 3. This fixed the issue and made it so that the Nav bar is not obstructed by anything on the page. 
+
+
 
 # Deployment
 
