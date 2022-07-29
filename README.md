@@ -17,7 +17,6 @@
     - [Features-left-to-Implement](#features-left-to-implement)
 - [Testing](#testing)
     - [Manual-Testing](#manual-testing)
-    - [Issues-and-Resolutions](#issues-and-resolutions-found-during-testing)
     - [Lighthouse](#lighthouse-testing)
     - [Validator-Testing](#validator-testing)
     - [Bugs](#bugs)
@@ -244,11 +243,11 @@ End.css
 
 Game.js 
 
-![game-css validator](assets/images/readme/Jshint-end.png)
+![game-css validator](assets/images/readme/jshint-game.png)
 
 End.js
 
-![end-css validator](assets/images/readme/Jshint-end.png)
+![end-css validator](assets/images/readme/jshint-end.png)
 
 ### Bugs
 
