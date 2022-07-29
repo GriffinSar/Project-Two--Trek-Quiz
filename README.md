@@ -231,16 +231,23 @@ Shows
 
 ## Css
 
-- App.css
+App.css
+
 ![app-css validator](assets/images/readme/app-css-valid.png)
 
-- End.css
+End.css
+
 ![end-css validator](assets/images/readme/end-css-valid.png)
 
 ## Javascript
 
-- End.js
-![end-css validator](assets/images/readme/end-java-valid.png)
+Game.js 
+
+![game-css validator](assets/images/readme/Jshint-end.png)
+
+End.js
+
+![end-css validator](assets/images/readme/Jshint-end.png)
 
 # Deployment
 

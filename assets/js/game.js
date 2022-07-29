@@ -5,7 +5,6 @@ const progressText = document.getElementById("progress");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 let currentQuestion = {};
-let acceptingAnswers = true;
 let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -133,7 +132,7 @@ let questions = [
 //Create Constants these do not change
 const CORRECT_SCORE = 10;
 const MAX_QUESTIONS = 14;
-const INNCORECT_TIMER = -10;
+
 
 /* code from this tutorial used but adjusted and added to for this project https://www.youtube.com/watch?v=icb9AUBeznQ */
 //Start Game Function
@@ -167,7 +166,7 @@ startGame = () => {
       });
 
       availableQuestions.splice(questionList, 1);
-  }
+  };
 
 //Event listener for click, sets color depending on right or wrong and also decreses counter for wrong answer
   choices.forEach(choice => {
@@ -181,7 +180,7 @@ startGame = () => {
       if (classToApply === "correct") {
         incrementScore(CORRECT_SCORE);
       } else {
-        countDownTimer -= 10
+        countDownTimer -= 10;
     }
     
       selectedChoice.parentElement.classList.add(classToApply);
@@ -204,10 +203,10 @@ incrementScore = num => {
       localStorage.setItem("mostRecentScore", score);
         endGame();
     } else {
-        countDownTimer--
+        countDownTimer--;
     }
   
-    const timer = document.getElementById("timer")
+    const timer = document.getElementById("timer");
     var timerString = "";
     if (countDownTimer > 60) {
         timerString += Math.floor(countDownTimer / 60) + "m ";
@@ -215,17 +214,17 @@ incrementScore = num => {
   
     // make it so when the timer gets below 30 seconds the color changes from green to red
     if (countDownTimer < 30) {
-        timer.setAttribute("class", "timerRed")
+        timer.setAttribute("class", "timerRed");
     }
   
-    var seconds = countDownTimer % 60
-    timerString += seconds + "s"
-    timer.innerHTML = timerString
-  }, 1000)
+    var seconds = countDownTimer % 60;
+    timerString += seconds + "s";
+    timer.innerHTML = timerString;
+  }, 1000);
   
 //Direct to end page
   function endGame() {
-    return window.location.assign("end.html")
+    return window.location.assign("end.html");
   }
 
 //Call start game function
