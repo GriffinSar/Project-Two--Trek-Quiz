@@ -54,8 +54,8 @@ As a frequent visitor I want to be able to check if there are new questions adde
 
 # Design
 ### Colour scheme
-Star Trek has a distinct colour scheme which I aimed to stick as closely to as possible. I have taken the main inspiration from the show The Next Generation (As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable). My aim was to have the quiz resemble a console from TNG as closely as possible. 
-The below image is a selection of the colours of the console screens in TNG and this is what I have selected from. 
+Star Trek has a distinct colour scheme which I aimed to stick with as closely to as possible. I have taken the main inspiration from the show The Next Generation (As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable). My aim was to have the quiz resemble a console from TNG. And so I based my colours on this and also on the Logo image.
+The below image is of the console screens in TNG and this is what I have selected my colours from. 
 
 Colors used -
 - #ff9900
@@ -83,7 +83,7 @@ The font is similar in style to the fonts used in the console images and so ties
 
 
 ### Imagery 
-For the background of the main page, I have used an image of space and stars. It is fitting with theme of the website while also not being too busy and letting the text be the focus. The home page has a gif of the enterprise. The game page has imagery of a console from the enterprise to give the user the impression that they are playing the game on a star ship console. The end page uses various images of TNG depending on the score. 
+For the background of the main page, I have used an image of space with stars. It is fitting with the theme of the website while also not being too busy and letting the text and images be the focus. The home page has a gif of the enterprise. The game page has imagery of a console from the enterprise to give the user the impression that they are playing the game on a star ship console. The end page uses various images of TNG depending on the score. And the shows page has an image of each of the Star Trek shows. 
 
 # WireFrames
 
@@ -103,7 +103,7 @@ For the background of the main page, I have used an image of space and stars. It
 ### Drop down Navigation bar and Logo
 Featured on all four pages, the fully responsive navigation bar includes links to the Home page, Game page and shows page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-Logo is featured on all four pages, it is the logo from the original Star Trek series and is used so that the user can recognise quickly what the site and quiz is about. The logo also creates brand recognition.
+Logo is featured on all four pages. It is the logo from the original Star Trek series and is used so that the user can recognise quickly what the site and quiz is about. The logo also creates brand recognition.
 The Logo is also a link which if clicked will bring the user back to the home page, this is a standard in websites so is included as this will be what the user is expecting.
 
 ![Navigation](assets/images/readme/drop-down-menu.png)
@@ -112,49 +112,60 @@ The Logo is also a link which if clicked will bring the user back to the home pa
 ### The Footer
 The footer section includes links to the relevant social media sites for the site owner.
 The footer is valuable to the user as it encourages them to keep connected via social media.
+The footer on the shows page contains a top button, I have described this feature seperatly too but is added on the shows page as this is the only page long enough that the user would scroll down so far they would need it. 
 
 ![Navigation](assets/images/readme/footer.png)
 
 ### Main page image and button to start the game
 
-The is the landing page. The gif is of the enterprise going to warp. The text instructs the user to click the engage button to start the quiz. This is a phrase used in TNG and would be familiar to those interested in star trek. It ties in with the image as Engage is what is said by the captain before the ship goes to warp. All of this should be entertaining to those familiar with Star Trek.
+The is the landing page. The gif is of the enterprise going to warp. The text instructs the user to click the engage button to start the quiz. This is a phrase used in TNG and would be familiar to those interested in Star Trek. It ties in with the image as Engage is what is said by the captain before the ship goes to warp. All of this should be entertaining to those familiar with Star Trek.
 
 ![Main Page](assets/images/readme/start-game.png)
 ![Ship image](assets/images/enterprise-gif.gif)
 
 ### Game page console images
 
-I have surrounded the game in images of a console from the enterprise. This adds to the site giving it a futuristic look and makes the user feel as if they are taking the quiz on a console from Star Trek.
+I have surrounded the game in images of a console from the enterprise. This adds to the site giving it a futuristic look and makes the user feel as if they are taking the quiz on a console from Star Trek. Again this should be entertaining to those users familiar with Star Trek, but also gives a nice visual even for those who may not be aware of where the images come from.
 
 ![Console image](assets/images/readme/console-image.png)
 
 ### Timer, Score and Question Counter Hub
 
-This section of the game has a timer which counts down from two minutes, this gives the user a challenge as they need to answer all the questions in two minutes. It also get 10 seconds taken from it with each wrong answer. There is a question counter which increases with each question answered and also fills a bar. Finally there is the score counter which is increased by 10 points with every right answer.
+This section of the game has a timer which counts down from two minutes, this gives the user a challenge as they need to answer all the questions in two minutes. It also get 10 seconds taken from it with each wrong answer giving the user a feeling of urgency and challenge.
+There is a question counter which increases with each question answered and also fills a bar. This lets the user know how many questions they have left in the quiz.
+Finally there is the score counter which is increased by 10 points with every right answer. This lets the user know how they are performing.
+
 ![Timer and Score](assets/images/readme/timer-hub.png)
 
 ### Questions and Answers
 
 This is the section of the game where the user can see the question and they can select their answer. If they select the correct answer the answer turns green if its wrong it turn red.
+This is important to the user as this is what the site is really centered around. The user is here to do the quiz and answer the questions. They want to challenge themselves to do as well as they can.
+Setting the answer red or green if the user answers incorrectly or correctly is another way of alerting the user to how they are performing in the quiz. So even if they are not watching the main hud they still know if they answered correctly or incorrectly.
 
 ![Timer and Score](assets/images/readme/questions-answers.png)
 
 
-### Name Generator
-
-When the user finishes the quiz they are directed to the end page. The first thing on the page is a small name and species generator. The user can click the button to generate a random first name, last name and species from the Star Trek shows. 
-
-![Name Generator](assets/images/readme/name-generator.png)
-
 ### Score, result text and Image
 This is located on the end page, it displays the users score along with text and an image that is generated depending on the score the user achieves.
+As this is a quiz it is important for the user to recieve their score and some feedback. They want to have their score so they can try improve on it next time. 
+The text and image are designed to be entertaining to the user and to give them a laugh when reading. This is supposed to be a fun and enjoyable quiz so I have written the feedback in a fun tone. 
+The image and text change depending on the users score. All the images are from The Next Generation which would be familiar even to users who would not be big Trek fans. 
+This section overall provides feedback for the user from the quiz while also being amusing and fun for them.
+
 ![Score Result](assets/images/readme/score-result.png)
 
 ### Play Again, Go Home
 
-This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page.
+This is located at the end of the page it gives the user the option to either play the game again or to be directed back to the landing page. This is useful for the user as it gives them the ability to play again straight away without having to go to the Nav bar or clicking the back button.
 
 ![Play Again](assets/images/readme/home-and-playagain.png)
+
+### Name Generator
+
+When the user finishes the quiz they are directed to the end page. The last thing on the page is a small name and species generator. The user can click the button to generate a random first name, last name and species from the Star Trek shows. This is just a fun little feature the user can play around with once they have finished reading their score text. It is a novelty and will add to the users enjoyment of the page.
+
+![Name Generator](assets/images/readme/name-generator.png)
 
 ### Shows Page Text on Hover for each image
 
