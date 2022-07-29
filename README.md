@@ -221,7 +221,7 @@ Game
 
 End
 
-![HTML validator](assets/images/readme/game-html-valid.png)
+![HTML validator](assets/images/readme/end-page-html-valid.png)
 
 Shows
 
@@ -256,6 +256,8 @@ End.js
 - For my game JavaScript file when I ran it through the Jshint validator there were several lines that were missing semi-colons and 2 variables that were not used. I removed these from the file and there were then no major errors in the Game.JS file. 
 
 - I had a bug where the sticky nav bar was disappearing behind images on the shows page. I had to update the z-index of the sticky class to 3. This fixed the issue and made it so that the Nav bar is not obstructed by anything on the page. 
+
+- I had a number of errors when I tested the HTML on my end page. I had left sections blank to be populated by Javascript. But I put in a default image and text and this resolved the error. It also means that if the JavaScript stops working it will still pull in a placeholder image and text.
 
 
 
