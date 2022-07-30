@@ -5,8 +5,10 @@ const lName = document.querySelector(".lname");
 const rSpecies = document.querySelector(".species");
 const nameBTN = document.querySelector(".name-button");
 
+/*Sets the users score on the end page*/
 finalScore.innerText = mostRecentScore;
 
+/*array of names and species for name generator*/
 const firstName = [
     "Spock", "Nyota", "Jean-Luc", "Data", "Troy", "Odo", "Quark", "Jadzia", "B'Elanna" , "Chakotay" , "Saru" , "Michael" , "Brad" , "Shaxs"]
 
@@ -16,6 +18,7 @@ const lastName = [
 
 const speciesList = ["Human", "Klingon", "Ferengi", "Trill", "Vulcan", "Andorian", "Bajoran", "Romulan", "Borg", "Q", "Kelpien", "Orion", "Bolian", "Breen", "Betazoid"]
 
+/*function to pull in name and species to name generator on end page*/
 nameBTN.addEventListener('click', function() {
     fName.innerHTML =
     firstName[Math.floor(Math.random() * firstName.length)];

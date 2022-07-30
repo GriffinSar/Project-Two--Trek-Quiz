@@ -12,7 +12,6 @@
 }
 
 /*body*/
-
 body {
   background: url(../images/star-background.jpg);
   height: 100%;
@@ -21,7 +20,6 @@ body {
 }
 
 /*header*/
-
 header {
   height: 80px;
 }
@@ -108,8 +106,6 @@ h1 {
   padding-top: 30px;
 }
 
-
-
 /* ship gif */
 .ship {
   height: 20%;
@@ -121,7 +117,6 @@ h1 {
 
 /*Engage button styling */
 .start-box {
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +193,6 @@ li i:hover {
   display: flex;
   justify-content: space-between;
   height: 85px;
-
 }
 
 .hud-prefix {
@@ -305,39 +299,46 @@ li i:hover {
 
 /*Media Queries*/
 
+/*Media queries for smaller screens*/
+@media screen and (max-width: 340px) {
+  #progressBar {
+    width: 10rem;
+    height: 3rem;
+  }
+  #progressBarFull {
+    height: 2.4rem;
+  }
+  #question {
+    padding-top: 20px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   img {
     width: 70%;
   }
-
   h1 {
     font-size: 2.5rem;
   }
-
   .game-container {
     width: 100%;
-
   }
-
   .console-left {
     height: 100%;
     width: 20%;
   }
-
   #question {
     font-size: medium;
   }
-
   .choice-container {
     width: 100%;
     font-size: 1rem;
   }
-
   .console-top {
     padding-top: 10px;
   }
 }
-
+/*Media queries for medium size screens*/
 @media screen and (max-width: 768px) {
   .game-container {
     width: 70%;
@@ -347,18 +348,5 @@ li i:hover {
   }
 }
 
-@media screen and (max-width: 340px) {
-  #progressBar {
-    width: 10rem;
-    height: 3rem;
-  }
 
-  #progressBarFull {
-    height: 2.4rem;
-  }
-
-  #question {
-    padding-top: 20px;
-  }
-}
  
