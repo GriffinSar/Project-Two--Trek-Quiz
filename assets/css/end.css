@@ -117,13 +117,12 @@ font-size: 20px;
 }
 
 /*shows page*/
-
-/* code from https://makitweb.com/html-how-to-show-text-above-image-on-hover/ used in this part modified and added to for my own page */
 .head {
     padding-top: 50px;
     display: flex;
     justify-content: center;
  }
+/* code from https://makitweb.com/html-how-to-show-text-above-image-on-hover/ used in this part modified and added to for my own page */
 
  .container{
     display: flex;
@@ -160,6 +159,7 @@ font-size: 20px;
     cursor: pointer;
    }
    
+   
    .content-image:hover div{
     visibility: visible;
     opacity: 1;
@@ -168,14 +168,13 @@ font-size: 20px;
     flex-direction: column;
     align-items: center;
    }
-  
+   
    .show-image:hover{
     opacity: 0.26;
     z-index: 1;
   }
 
-  /*Style for the back to top button*/
-
+  /*Style for the top button*/
 
   .top-button {
     background-color: #ff9900;
