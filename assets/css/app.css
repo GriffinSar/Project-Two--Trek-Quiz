@@ -35,6 +35,9 @@ img {
   z-index: 1;
 }
 
+/*Code used from this site https://www.w3schools.com/howto/howto_css_dropdown.asp  to help me build the dropdown menu,
+adjusted code to fit my project*/
+
 /* Dropdown Button */
 .dropbtn {
   background-color: #ff9900;

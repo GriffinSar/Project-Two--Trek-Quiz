@@ -304,7 +304,23 @@ All other text was writen by me.
 
 ### Media
 
-Images for this site were found using google images. They are all images from the shows of Star Trek.
+Images for this site are related to the Star Trek franchise. I have used google search to find the images. I have listed the sites below that these images are located on 
+
+- Logo image – https://www.empireonline.com/movies/news/star-trek-50th-anniversary-special-podcast/
+- Ship Gif – https://www.pinterest.ie/pin/820992207041693877/
+console image – https://en.wikipedia.org/wiki/LCARS
+- Picard image – https://www.theguardian.com/culture/2020/mar/27/star-trek-picard-is-the-dark-reboot-that-boldly-goes-where-nobody-wanted-it-to
+- Riker image –  https://carnacsguide.com/william-t-riker/
+- Barclay image – https://www.imdb.com/title/tt0708813/
+- The Original series image - https://en.wikipedia.org/wiki/Star_Trek:_The_Original_Series
+- The Next Generation image – https://memory-alpha.fandom.com/wiki/Star_Trek:_The_Next_Generation
+- Deep Space Nine image – https://www.dailystartreknews.com/read/alexander-siddig-would-love-to-go-back-to-a-theoretical-reboot-of-star-trek-deep-space-nine
+- Voyager – https://intl.startrek.com/database_article/star-trek-voyager-synopsis
+- Enterprise - https://www.wired.com/2015/07/binge-guide-star-trek-enterprise/
+- Discovery –https://www.cbr.com/star-trek-discovery-questions-fans-want-answered/
+- Lower Decks – https://treknews.net/2021/07/12/star-trek-lower-decks-s2-preview/
+- Strange New Worlds – https://www.imdb.com/title/tt12327578/
+
 
 
 ### Code
@@ -317,6 +333,8 @@ https://www.youtube.com/watch?v=icb9AUBeznQ
 I used code from this page to help me style the shows page so that text showed when you hovered over the images. I added and adjusted the code to work for my project 
 https://makitweb.com/html-how-to-show-text-above-image-on-hover/
 
+I used code from this page to help  me build my dropdown menu for my Nav bar. I adjusted the code to work for my specific project. https://www.w3schools.com/howto/howto_css_dropdown.asp 
+
 ### Technologies
 
 - The project was primarily written in HTML , CSS and JavaScript.
@@ -328,15 +346,18 @@ https://makitweb.com/html-how-to-show-text-above-image-on-hover/
 - The project's accessibility was tested via Google Chrome's Lighthouse.
 - The project's HTML was validated using W3C HTML Markup Validator.
 - The project's CSS was validated using W3C Jigsaw CSS Validator.
+- The projects's JavaScript was validated using Jshint.
 - The project's wireframes were designed in Balsamiq.
-- Checked indentation of HTML with FreeFormatter.com
-- Referenced this website on how to create a drop down menu https://www.w3schools.com/howto/howto_css_dropdown.asp 
-- 
+- Checked indentation of HTML with FreeFormatter.com.
+- Used Beautify to check formatting of my code.
+- I used https://www.w3schools.com/ for reference.
+
+### Acknowledgements
+
+Thank you to my mentor, Ronan McClelland, who provided a huge amount of support and guidance for this project.
 
 
-
-
-
+Thank you to my husband and children who have patiently put up with me over the last few weeks while I have given a  lot of my attention to getting this project completed.
 
 # Disclaimer
 This website is for educational purposes only.
