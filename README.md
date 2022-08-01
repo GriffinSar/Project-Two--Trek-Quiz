@@ -19,7 +19,8 @@
     - [Manual-Testing](#manual-testing)
     - [Lighthouse](#lighthouse-testing)
     - [Validator-Testing](#validator-testing)
-    - [Bugs](#bugs)
+    - [Fixed Bugs](#bugs)
+    - [Unfixed Bugs](#bugs)
 - [Deployment](#deployment)
 - [Credits](#credits)
     - [Content](#content)
@@ -260,7 +261,7 @@ End.js
 
 ![end-css validator](assets/images/readme/jshint-end.png)
 
-### Bugs
+### Fixed Bugs
 
 - Once the site was deployed, I realised that the game page was not automatically directing the user to the end page at the end of the game. The pathway to the end page was wrong in the JavaScript file. I had to go and update this and once I had done this the game worked as expected and directed to the end page.
 
@@ -271,6 +272,9 @@ End.js
 - I had a number of errors when I tested the HTML on my end page. I had left sections blank to be populated by Javascript. But I put in a default image and text and this resolved the error. It also means that if the JavaScript stops working it will still pull in a placeholder image and text.
 
 
+### Unfixed Bugs
+
+- I have one bug that I still need to fix. This is related to the text and images on the shows page. When the user hovers over the image on the shows page that image is slightly transparent and the text is clear. I have found in my testing though that when the text is hovered over the image does not change to be transparent. So while the text is there it is a little harder to read. This is not such an issue for larger screen sizes. But it became apparent when I was testing it on my mobile. I have not been able to rectify this issue but am working on finding a way. And will make the changes to the site once I have worked out this problem.  
 
 # Deployment
 
@@ -369,7 +373,6 @@ I used code from this page to help  me build my dropdown menu for my Nav bar. I 
 ### Acknowledgements
 
 Thank you to my mentor, Ronan McClelland, who provided a huge amount of support and guidance for this project.
-
 
 Thank you to my husband and children who have patiently put up with me over the last few weeks while I have given a  lot of my attention to getting this project completed.
 
