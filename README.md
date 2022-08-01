@@ -41,21 +41,21 @@ Click the link to be directed to the live website: https://griffinsar.github.io/
 ![responsive](assets/images/readme/responsive.png)
 
 # Target Audience
-The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site. The questions are tough but general enough that it can be played by those who know a lot about Trek and those new to the series. The shows page also gives a small bit of history on each show and lists them all which could be helpful for a new fan.
+The target audience for this website are people who are looking for a fun online Star Trek quiz. It is geared towards people with an interest in Star Trek but anyone could enjoy the site. The questions are tough but general enough that it can be played by both those who know a lot about Trek and those new to the series. The shows page also gives a small bit of history on each show and lists them all which could be helpful for a new fan.
 
 # User Stories
 ### First Time Visitor Goals
 As a first-time visitor I want to easily be able to understand the purpose of the site – eg that this is a quiz about Star Trek. I want to be able to easily navigate to the quiz page. I also want to get additional information on the show.
 
 ### Returning Visitor Goals
-As a returning visitor I want to be able to take the quiz again to see if I can improve my score. I want to be able to go to the shows page and get more information on the shows. 
+As a returning visitor I want to be able to take the quiz again to see if I can improve my score. I want to be able to go to the Shows page and get more information on the shows. 
 
 ### Frequent Visitor Goals
 As a frequent visitor I want to be able to check if there are new questions added to the quiz or name generator. Or any new feartures added in general.
 
 # Design
 ### Colour scheme
-Star Trek has a distinct colour scheme which I aimed to stick with as closely to as possible. I have taken the main inspiration from the show The Next Generation (As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable). My aim was to have the quiz resemble a console from TNG. And so I based my colours on this and also on the Logo image.
+Star Trek has a distinct colour scheme which I aimed to stick with as closely to as possible. I have taken the main inspiration from the show "The Next Generation" (TNG), As the shows do vary slightly in their styling and this is my personal favourite and the most recognisable. My aim was to have the quiz resemble a console from TNG. And so I based my colours on this and also on the Logo image.
 The below image is of the console screens in TNG and this is what I have selected my colours from. 
 
 Colors used -
@@ -79,7 +79,7 @@ For the website Logo I have used an image of the Star Trek Logo taken from the o
 
 ### Text
 
-The font used in this site is : Arial, Helvetica, sans-serif;
+The fonts used in this site are Arial, Helvetica, Sans-serif;
 The font is similar in style to the fonts used in the console images and so ties in nicely with this image. It gives the site a cohesive look. I believe a busier looking font would detract from the game and design of the pages.
 
 
@@ -140,7 +140,7 @@ Finally there is the score counter which is increased by 10 points with every ri
 
 ### Questions and Answers
 
-This is the section of the game where the user can see the question and they can select their answer. If they select the correct answer the answer turns green if its wrong it turn red.
+This is the section of the game where the user can see the question and they can select their answer. If they select the correct answer the answer turns green, if it's wrong it turn red.
 This is important to the user as this is what the site is really centered around. The user is here to do the quiz and answer the questions. They want to challenge themselves to do as well as they can.
 Setting the answer red or green if the user answers incorrectly or correctly is another way of alerting the user to how they are performing in the quiz. So even if they are not watching the main hud they still know if they answered correctly or incorrectly.
 
@@ -151,7 +151,7 @@ Setting the answer red or green if the user answers incorrectly or correctly is 
 This is located on the end page, it displays the users score along with text and an image that is generated depending on the score the user achieves.
 As this is a quiz it is important for the user to recieve their score and some feedback. They want to have their score so they can try improve on it next time. 
 The text and image are designed to be entertaining to the user and to give them a laugh when reading. This is supposed to be a fun and enjoyable quiz so I have written the feedback in a fun tone. 
-The image and text change depending on the users score. All the images are from The Next Generation which would be familiar even to users who would not be big Trek fans. 
+The image and text change depending on the users score. All the images are from The Next Generation, which would be familiar even to users who would not be big Trek fans. 
 This section overall provides feedback for the user from the quiz while also being amusing and fun for them.
 
 ![Score Result](assets/images/readme/score-result.png)
@@ -170,7 +170,7 @@ When the user finishes the quiz they are directed to the end page. The last thin
 
 ### Shows Page Text on Hover for each image
 
-This is the main feature of the end page. It is a list of images from each of the Star Trek shows, one image for each. When the user hovers over each image text relating to the show appears. This is useful for the user as if they are unfamiliar with the shows it gives them a list and a bit of information on each. For those who are familar with Star Trek it could be of interest to them as they can see if maybe there is information there that they may not already be familiar with. 
+This is the main feature of the end page. It is a list of images from each of the Star Trek shows, one image for each. When the user hovers over each image text relating to the show appears. This is useful for the user as if they are unfamiliar with the shows it gives them a list and a bit of information on each. It could also be of interest to those familiar with Star Trek, as they can see if maybe there is information there that they may not already be familiar with. 
 
 ![Show Hover](assets/images/readme/shows-page-feature.png)
 
@@ -274,7 +274,7 @@ End.js
 
 ### Unfixed Bugs
 
-- I have one bug that I still need to fix. This is related to the text and images on the shows page. When the user hovers over the image on the shows page that image is slightly transparent and the text is clear. I have found in my testing though that when the text is hovered over the image does not change to be transparent. So while the text is there it is a little harder to read. This is not such an issue for larger screen sizes. But it became apparent when I was testing it on my mobile. I have not been able to rectify this issue but am working on finding a way. And will make the changes to the site once I have worked out this problem.  
+- I have one bug that I still need to fix. This is related to the text and images on the shows page. When the user hovers over the image that image becomes slightly opaque and the text then is clearly visible against the image. I have found in my testing though that when only the text is hovered over the image does not change opacity. So while the text is there it is a little harder to read. This is not such an issue for larger screen sizes. But it became apparent when I was testing it on my mobile. I have not been able to rectify this issue but am working on finding a way. And will make the changes to the site once I have worked out this problem.  
 
 # Deployment
 
