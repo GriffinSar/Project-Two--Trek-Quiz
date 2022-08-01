@@ -274,21 +274,36 @@ End.js
 
 # Deployment
 
-Using Github Pages
-The site was deployed to GitHub pages. The steps to deploy are as follows:
-In the GitHub repository, navigate to the Settings tab
-From the source section drop-down menu, select the Main Branch
-Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-I then had to wait a few minutes until the site was fully deployed and it was ready.
-The live link can be found here - https://griffinsar.github.io/Project-Two--Trek-Quiz/index.html
+### Project Creation 
 
-Run Locally
-Navigate to the GitHub Repository:
-Click the Code drop down menu.
-Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
-Open your development editor of choice and open a terminal window in a directory of your choice.
-Use the 'git clone' command in terminal followed by the copied git URL.
-A clone of the project will be created locally on your machine.
+This project was created using Gitpod, Gitpod provides prebuilt development environments with a variety of IDEs.
+
+For this project I used the prebuilt environment provided by Code Institue to start this project. I clicked the 'use this template' button and named my repository Project Two Trek Quiz. I then created a Gitpod workspace by clicking the green gitpod button in my Project Two Trek Quiz repository.
+
+I used the following commands throught the development of this project:
+
+- python3 -m http.server - This command runs a local webserver to view the project. 
+- git add . - This command adds all your changes that have been made in the working firectory to the staging area. They are then readyto be commited. 
+- git commit -m "" - This command is used to write descriptive messages of what changes have been made to the code and commits the changes to the local repsoitory.
+- git push - This command pushes all the commited changes to the Github repository.
+
+### Using Github Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab
+- From the source section drop-down menu, select the Main Branch
+- Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+- I then had to wait a few minutes until the site was fully deployed and it was ready.
+- The live link can be found here - https://griffinsar.github.io/Project-Two--Trek-Quiz/index.html
+
+### Run Locally
+
+- Navigate to the GitHub Repository.
+- Click the Code drop down menu.
+- Either Download the ZIP file, unpackage locally and open with IDE (This route ends here) OR Copy Git URL from the HTTPS dialogue box.
+- Open your development editor of choice and open a terminal window in a directory of your choice.
+- Use the 'git clone' command in terminal followed by the copied git URL.
+- A clone of the project will be created locally on your machine. Note - git commands only work if git is installed on your machine. Find installation documentation here : https://git-scm.com/.
 
 # Credits
 
@@ -341,7 +356,6 @@ I used code from this page to help  me build my dropdown menu for my Nav bar. I 
 - The project was written and tested in the Gitpod IDE.
 - The project was debugged using Google Chrome Dev Tools.
 - The project's template was generated from Code Institute's Gitpod Template.
-- The project uses FontAwesome.
 - The images were converted to webp using cloud convert.
 - The project's accessibility was tested via Google Chrome's Lighthouse.
 - The project's HTML was validated using W3C HTML Markup Validator.
