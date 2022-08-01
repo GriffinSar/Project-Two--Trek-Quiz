@@ -14,7 +14,6 @@
 - [Wireframes](#wire-frames)
 - [Features](#features)
     - [Existing-Features](#existing-features)
-    - [Features-left-to-Implement](#features-left-to-implement)
 - [Testing](#testing)
     - [Manual-Testing](#manual-testing)
     - [Lighthouse](#lighthouse-testing)
